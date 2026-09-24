@@ -50,12 +50,5 @@ source("Q10_Complete_Analysis_3.R")
 Run time is minutes on a standard desktop; BART and partial-dependence calculations use
 optional multi-core parallelisation on non-Windows systems.
 
-## Outputs
-
-- `intermediate_model_*.rds` — fitted model objects and test-set predictions for every model
-- `Model_Performance_Points_with_Lines.pdf` — cross-validated and test-set performance of all models
-- `Observed_vs_Predicted_All_Models.pdf` — observed-vs-predicted scatter for all models
-- `Figure_1*_Feature_Importance.pdf`, `Figure_1*_PDP_Paper_Style.pdf`, `Figure_1*_All_Data_Scatter.pdf`
-  — interpretability figures for the top-two models
 
 
